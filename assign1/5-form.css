@@ -1,22 +1,112 @@
-body {
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+@media screen and (min-width: 476px) {
+  body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0173a0;
+  }
 }
 
-.container{
+
+@media screen and (min-width: 768px) {
+  body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #0173a0;
+  }
+}
+
+div.formbox{
+  margin-top: 30px;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
   border: 1px solid black;
+  height: 650px;
+  background-color: white; 
 }
+
+h1{
+  text-align: center;
+  color:#0173a0;
+}
+
 form{
-  padding: 10px;
+  padding: 20px;
+  background-color: white;
 }
+
 label{
-  width: 100%;
+ display: block;
+ margin-bottom: 5px;
 }
+
+#heading{
+  font-weight: bold;
+}
+
+legend{
+  margin-bottom: 5px;
+}
+
 input[type="text"],input[type="email"]{
-  width: 80%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
 }
 #block{
   margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+select{
+  width: 100%;
+  height: 30px;
+}
+
+.radio-inline{
+  display: inline;
+}
+
+textarea{
+  width: 100%;
+}
+
+input[type="submit"]{
+  width: 49%;
+  display: inline;
+  float: left;
+  margin-right: 2px;
+  margin-bottom: 10px;
+  height: 30px;
+  background-color:#0173a0;
+  color: white;
+}
+input[type="submit"]:hover{
+  background-color:#95d5ee;
+  color: black;
+}
+input[type="reset"]{
+  width: 49%;
+  display: inline;
+  float: right;
+  margin-bottom: 10px;
+  height: 30px;
+  color: #0173a0;
+}
+
+input[type="reset"]:hover{
+  background-color:#95d5ee;
+  color: black;
+}
+
+input[type="radio"] +label{
+  display: inline;
+}
+
+fieldset {
+  border: 0;
+}
+
+#bracketstyling{
+  color: gray;
+  font-weight: normal;
 }
