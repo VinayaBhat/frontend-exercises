@@ -4,13 +4,12 @@ body {
   color: #555;
 }
 
-.container {
-  border: rgb(119, 117, 117) 1px solid;
-  margin: 40px;
+.row1,.row2 {
+  margin: 10px;
   margin-top: 20px;
-  display: flex; 
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+}
+.item{
+  float: left;
 }
 
 img{
