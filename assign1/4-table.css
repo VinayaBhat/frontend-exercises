@@ -8,3 +8,29 @@ body {
       - #006060;
       - rgb alpha value of the color above
 */
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+th{
+  padding: 15px;
+  text-align: center;
+  background-color:#006060;
+  color: white;
+}
+
+td{
+  padding: 15px;
+}
+
+tr{
+  border: black 0.5px solid;
+}
+
+tr:hover{
+  background-color:#0bf3f3; ;
+}
