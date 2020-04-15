@@ -3,3 +3,43 @@ body {
   font-size: 1.1em;
   color: #555;
 }
+
+.container {
+  border: rgb(119, 117, 117) 1px solid;
+  margin: 40px;
+  margin-top: 20px;
+  display: flex; 
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+img{
+  height: 200px;
+  width: 200px;
+}
+
+#img1{
+  filter: none;
+}
+#img2{
+  filter: grayscale(100%);
+}
+#img3{
+  filter:blur(3px)
+}
+#img4{
+  filter:invert(100%)
+}
+
+#img5{
+  filter:brightness(50%)
+}
+#img6{
+  filter: saturate(200%);
+}
+#img7{
+  filter:sepia(100%)
+}
+#img8{
+  filter: blur(2px) grayscale(80%) saturate(250%) sepia(50%);
+}
