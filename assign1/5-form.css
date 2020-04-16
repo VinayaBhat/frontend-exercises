@@ -39,7 +39,7 @@ label{
  margin-bottom: 5px;
 }
 
-#heading{
+.heading{
   font-weight: bold;
 }
 
@@ -53,7 +53,7 @@ input[type="text"],input[type="email"]{
   margin-right: auto;
   height: 20px;
 }
-#block{
+.block{
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -109,7 +109,7 @@ fieldset {
   margin-inline-start: 0px;
 }
 
-#bracketstyling{
+.bracketstyling{
   color: gray;
   font-weight: normal;
 }
