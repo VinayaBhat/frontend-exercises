@@ -1,17 +1,9 @@
-@media screen and (min-width: 476px) {
-  body {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #0173a0;
-  }
+
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #0173a0;
 }
 
-
-@media screen and (min-width: 768px) {
-  body {
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: #0173a0;
-  }
-}
 
 div.formbox{
   margin-top: 30px;
@@ -21,6 +13,21 @@ div.formbox{
   height: 675px;
   background-color: white; 
   border-radius: 3%;
+}
+
+@media screen and (max-width: 476px) {
+  .formbox{
+    width: 300px;
+    height:475px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .formbox{
+    width: 70%;
+    height:80%;
+  }
 }
 
 h1{
