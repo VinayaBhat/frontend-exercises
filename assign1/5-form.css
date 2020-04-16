@@ -18,9 +18,9 @@ div.formbox{
   width: 500px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid black;
-  height: 650px;
+  height: 675px;
   background-color: white; 
+  border-radius: 3%;
 }
 
 h1{
@@ -31,6 +31,7 @@ h1{
 form{
   padding: 20px;
   background-color: white;
+  border-radius: 25%;
 }
 
 label{
@@ -89,7 +90,7 @@ input[type="reset"]{
   display: inline;
   float: right;
   margin-bottom: 10px;
-  height: 30px;
+  height:30px;
   color: #0173a0;
 }
 
@@ -104,6 +105,8 @@ input[type="radio"] +label{
 
 fieldset {
   border: 0;
+  padding: 0;
+  margin-inline-start: 0px;
 }
 
 #bracketstyling{

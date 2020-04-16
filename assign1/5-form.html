@@ -11,58 +11,60 @@
 
 <body>
   <div class="formbox">
-   <form>
+    <form>
       <h1>INTRO SURVEY</h1>
       <div id="block">
         <label for="name" id="heading">Name<span id="bracketstyling"> (required)</span></label>
-        <input type="text"  id="name" required aria-required="true">
+        <input type="text" id="name" required aria-required="true">
       </div>
       <div id="block">
         <label for="email" id="heading">Email<span id="bracketstyling"> (required)</span></label>
-        <input type="email"  id="email" required aria-required="true">
-      </div>
-      <div id="block">
-        <legend id="heading">Registration Status:</legend>
-        <select>
-          <option>Registered</option>
-          <option>Waitlist</option>
-          <option>Other</option>
-        </select>
+        <input type="email" id="email" required aria-required="true">
       </div>
       <div id="block">
         <fieldset>
-        <legend id="heading">Class Section:</legend>
-        <input type="radio" id="410" name="class" value="410P">
-        <label for="410">CS 410P</label>
-        <input type="radio" id="510" name="class" value="510">
-        <label for="510">CS 510</label>
-      </fieldset>
+          <legend id="heading">Registration Status:</legend>
+          <select>
+            <option>Registered</option>
+            <option>Waitlist</option>
+            <option>Other</option>
+          </select>
+        </fieldset>
       </div>
       <div id="block">
         <fieldset>
-        <legend id="heading">Have you taken any of the following courses?</legend>
-        <label>
-          <input type="checkbox">
-          <span>Programming Languages</span>
-        </label>
-        <label>
-          <input type="checkbox">
-          <span>Operating Systems</span>
-        </label>
-        <label>
-          <input type="checkbox">
-          <span>Full Stack Web Development</span>
-        </label>
-      </fieldset>
+          <legend id="heading">Class Section:</legend>
+          <input type="radio" id="410" name="class" value="410P">
+          <label for="410">CS 410P</label>
+          <input type="radio" id="510" name="class" value="510">
+          <label for="510">CS 510</label>
+        </fieldset>
       </div>
       <div id="block">
-       <label for="extranotes" id="heading">Anything Else?</label>
-       <textarea id="extranotes" rows="5">
+        <fieldset>
+          <legend id="heading">Have you taken any of the following courses?</legend>
+          <label>
+            <input type="checkbox">
+            <span>Programming Languages</span>
+          </label>
+          <label>
+            <input type="checkbox">
+            <span>Operating Systems</span>
+          </label>
+          <label>
+            <input type="checkbox">
+            <span>Full Stack Web Development</span>
+          </label>
+        </fieldset>
+      </div>
+      <div id="block">
+        <label for="extranotes" id="heading">Anything Else?</label>
+        <textarea id="extranotes" rows="5">
         </textarea>
       </div>
       <div id="block">
-        <input type="submit"/>
-        <input type="reset"/>
+        <input type="submit">
+        <input type="reset">
       </div>
     </form>
   </div>

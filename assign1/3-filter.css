@@ -7,9 +7,10 @@ body {
 .row1,.row2 {
   margin: 10px;
   margin-top: 20px;
+  display: block;
 }
 .item{
-  float: left;
+  display: inline-block;
 }
 
 img{

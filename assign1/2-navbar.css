@@ -7,7 +7,9 @@ body {
 @media screen and (max-width: 920px){
  nav>ul>li{
    display: block;
- }
+   width: 100%;
+   margin: 0%;
+ } 
 }
 
 *{
@@ -18,20 +20,36 @@ body {
 
 nav {
   background-image: linear-gradient(to right, rgb(1, 73, 73) 20%, black);
-  padding: 10px;
+  height: max-content;
 }
 
 ul{
   text-align: center;
+  height: 100%;
 }
 li{
-  margin: 10px 30px;
+  margin: 0px 30px;
   list-style-type: none;
   display: inline-block;
+  padding: 20px;
 }
 a{
-  color: white;
+ color: white;
  text-decoration: none;
+}
+
+li:hover{
+  background-color: cadetblue;
+  color: white;
+}
+
+a:focus{
+ color:chartreuse; 
+}
+
+a:active{
+  background-color: cadetblue;
+  color: red;
 }
 
 
