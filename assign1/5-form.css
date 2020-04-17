@@ -5,28 +5,29 @@ body {
 }
 
 
-div.formbox{
+.formbox{
   margin-top: 30px;
-  width: 500px;
+  width: 30%;
   margin-left: auto;
   margin-right: auto;
-  height: 675px;
+  height: 100%;
   background-color: white; 
   border-radius: 3%;
+  padding: 1%;
 }
 
 @media screen and (max-width: 476px) {
   .formbox{
-    width: 300px;
-    height:475px;
+    width: 40%;
+    height: 100%;
   }
 }
 
 
 @media screen and (max-width: 768px) {
   .formbox{
-    width: 70%;
-    height:80%;
+    width: 40%;
+    height: 100%;
   }
 }
 
@@ -81,12 +82,10 @@ textarea{
 input[type="submit"]{
   width: 49%;
   display: inline;
-  float: left;
-  margin-right: 2px;
-  margin-bottom: 10px;
-  height: 30px;
+  margin-right: 2%;
   background-color:#0173a0;
   color: white;
+  padding: 1%;
 }
 input[type="submit"]:hover{
   background-color:#95d5ee;
@@ -96,9 +95,8 @@ input[type="reset"]{
   width: 49%;
   display: inline;
   float: right;
-  margin-bottom: 10px;
-  height:30px;
   color: #0173a0;
+  padding: 1%;
 }
 
 input[type="reset"]:hover{
