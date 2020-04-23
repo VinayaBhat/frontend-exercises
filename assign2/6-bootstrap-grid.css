@@ -10,3 +10,18 @@
 }
 
 /* Add your code here */
+.firstrow>div{
+  background-color: #82017A;
+}
+
+.secondrow>div{
+  background-color: green;
+}
+
+.thirdrow>div{
+  background-color: orange;
+}
+
+.fourthrow>div{
+  background-color: #008B8A;
+}
