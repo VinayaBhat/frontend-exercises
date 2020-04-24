@@ -19,39 +19,39 @@
 }
 
 /* Add your code here */
-.flex-container{
+.flex-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
 }
 
-.item1{
-  order:1;
+.item1 {
+  order: 1;
 }
-.item5{
-  order:2;
+.item5 {
+  order: 2;
 }
-.item8{
-  order:3;
+.item8 {
+  order: 3;
 }
-.item4{
-  order:4;
+.item4 {
+  order: 4;
 }
-.item3{
-  order:5;
+.item3 {
+  order: 5;
 }
-.item2{
-  order:6;
+.item2 {
+  order: 6;
 }
-.item9{
-  order:7;
+.item9 {
+  order: 7;
 }
-.item7{
-  order:8;
+.item7 {
+  order: 8;
 }
-.item6{
-  order:9;
+.item6 {
+  order: 9;
 }
-.item10{
-  order:10;
+.item10 {
+  order: 10;
 }

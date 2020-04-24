@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-.row > div[class^='col'] {
+.row > div[class^="col"] {
   height: 100px;
   padding: 10px;
   border: 1px solid white;
@@ -10,18 +10,18 @@
 }
 
 /* Add your code here */
-.firstrow>div{
-  background-color: #82017A;
+.firstrow > div {
+  background-color: #82017a;
 }
 
-.secondrow>div{
+.secondrow > div {
   background-color: green;
 }
 
-.thirdrow>div{
+.thirdrow > div {
   background-color: orange;
 }
 
-.fourthrow>div{
-  background-color: #008B8A;
+.fourthrow > div {
+  background-color: #008b8a;
 }

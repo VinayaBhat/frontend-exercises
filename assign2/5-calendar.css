@@ -1,34 +1,33 @@
-*{
+* {
   box-sizing: border-box;
 }
-.container{
+.container {
   display: grid;
-  grid-template-columns: repeat(7,1fr);
-  grid-template-rows:1fr 0.7fr 1.5fr  1.5fr  1.5fr  1.5fr  1.5fr;
-  gap:1% 1%;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: 1fr 0.7fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+  gap: 1% 1%;
 }
 
-
-@media (min-width:414px){
-  .month{
+@media (min-width: 414px) {
+  .month {
     font-size: 1em;
   }
- }
-@media (min-width:768px){
-  .month{
+}
+@media (min-width: 768px) {
+  .month {
     font-size: 1em;
   }
- }
-@media (min-width:1024px){
- .month{
-   font-size: 1.5em;
- }
+}
+@media (min-width: 1024px) {
+  .month {
+    font-size: 1.5em;
+  }
 }
 
-.month{
+.month {
   grid-column-start: 1;
   grid-column-end: 8;
-  grid-row-start:1;
+  grid-row-start: 1;
   grid-row-end: 2;
   display: flex;
   flex-direction: row;
@@ -37,25 +36,34 @@
   align-items: center;
   background-color: black;
   color: white;
+  font-weight: bold;
   padding: 1%;
 }
 
-.sun,.mon,.tue,.wed,.thru,.fri,.sat,.sun{
+.sun,
+.mon,
+.tue,
+.wed,
+.thru,
+.fri,
+.sat,
+.sun {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
 }
 
-.next-month,.previous-month{
+.next-month,
+.previous-month {
   background-color: white;
   height: 100%;
   border: 1px solid #eaeaea;
   display: flex;
 }
 
-.date{
-  background-color: rgb(201, 201, 201);
+.date {
+  background-color: #eaeaea;
   height: 100%;
   border: 1px solid #eaeaea;
   display: flex;
