@@ -13,14 +13,16 @@
 
 /* Add your code here */
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  gap: 0.5% 0.5%;
-}
+
 
 @media (min-width: 414px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 0.5% 0.5%;
+  }
+
   .item1 {
     grid-column-start: 1;
     grid-column-end: 5;
@@ -91,6 +93,12 @@
 }
 
 @media (max-width: 414px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(10, 1fr);
+    gap: 2px;
+  }
   .item1 {
     grid-column-start: 1;
     grid-column-end: 7;
