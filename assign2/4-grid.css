@@ -20,7 +20,7 @@
     display: grid;
     grid-template-columns: repeat(10, auto);
     grid-template-rows: repeat(10, 1fr);
-    gap: 0.5% 0.5%;
+    gap: 2px;
   }
 
   .item1 {
