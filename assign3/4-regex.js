@@ -3,17 +3,16 @@
 function phrasing(event){
     event.preventDefault();
     var text=document.getElementById("userinput").value;
-    var str_arr=text.split(/[\\,!?.]/);
+    var str_arr=text.split(/[\\,!?.;|]/);
     str_arr = str_arr.filter(str => str.trim().length > 0);
     var parent_element=document.getElementById("results");
     deleteChild(parent_element);
-    for(var i=0;i<str_arr.length;i++){
-      
-        var div_str=document.createElement("div");
-        div_str.style.paddingBottom="1%";
-        div_str.style.borderBottom="1px solid gainsboro";
+    for(var i=0;i<str_arr.length;i++){      
+        var div_str=document.createElement("div");      
         div_str.innerHTML=str_arr[i];
         parent_element.appendChild(div_str);
+        var hr_element=document.createElement("hr");
+        parent_element.appendChild(hr_element);
     }
 }
 
