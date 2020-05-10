@@ -19,10 +19,12 @@ function startstop_toggle() {
     var button = document.getElementById("submit");
     if (button.value == "Stop") {
         button.value = "Start";
+        button.className="btn btn-primary";
         document.getElementById("interval").disabled = false;
         clearInterval(timeout);
     } else {
         button.value = "Stop";
+        button.className="btn btn-danger";
         document.getElementById("interval").disabled = true;
         clearInterval(timeout);
         changeColor();

@@ -24,6 +24,7 @@ function checkPositive(number) {
 
 
 function checkforPalindrome(event) {
+    event.preventDefault();
     var number = document.getElementById("number").value;
     var result = document.getElementById("result");
     if (checkPositive(number)) {

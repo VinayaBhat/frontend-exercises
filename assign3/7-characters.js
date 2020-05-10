@@ -26,4 +26,4 @@ async function displayData() {
     }
 }
 
-displayData();
+document.body.addEventListener('onload',displayData());
